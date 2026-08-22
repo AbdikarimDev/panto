@@ -1,5 +1,9 @@
 <template>
-    <div class="font-gilroy flex justify-around items-center text-white w-full z-10 fixed">
+    <div class="font-gilroy flex justify-around items-center text-white w-full z-20 fixed"
+      :class="[
+      'fixed top-0 w-full transition-colors duration-300',
+      scrolled ? 'bg-[#151617]' : 'bg-transparent'
+    ]">
         <div>
             <h1 class="font-semibold text-[28px] ">Panto</h1>
         </div>
@@ -44,8 +48,21 @@
     </div>
 </template>
 
-<script>
-export default {};
-</script>
 
-<style lang="scss" scoped></style>
+<script setup>
+import { ref, onMounted, onUnmounted } from 'vue'
+
+const scrolled = ref(false)
+
+const handleScroll = () => {
+  scrolled.value = window.scrollY > 1000
+}
+
+onMounted(() => {
+  window.addEventListener('scroll', handleScroll)
+})
+
+onUnmounted(() => {
+  window.removeEventListener('scroll', handleScroll)
+})
+</script>

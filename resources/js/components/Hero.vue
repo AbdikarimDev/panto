@@ -1,19 +1,25 @@
 <template>
     <div
-        class="relative z-0 flex w-full items-center justify-center font-gilroy md:mt-48  "
+        class="relative z-0 flex w-full items-center justify-center font-gilroy md:mt-48"
     >
-        <div class="flex flex-col justify-center items-center gap-10">
+        <div class="flex flex-col items-center justify-center gap-10">
             <h1 class="text-[84px] font-semibold text-white">
                 Make your interior more <br />
                 minimalistic & modern
             </h1>
             <p class="text-center text-[24px] font-normal text-white">
                 Turn your room with panto into a lot more minimalist <br />
-                and modern with ease and speed 
+                and modern with ease and speed
             </p>
             <!-- SEARCH INPUT -->
-            <div class="w-full max-w-90  bg-white/30 backdrop-blur-xs border-[#FFFFFF99] border rounded-full flex justify-between items-center py-1.5 px-4">
-                <input type="text" placeholder="Search furniture" class="border-0 outline-0 placeholder:text-white text-white w-[80%]" />
+            <div
+                class="flex w-full max-w-90 items-center justify-between rounded-full border border-[#FFFFFF99] bg-white/30 px-4 py-1.5 backdrop-blur-xs"
+            >
+                <input
+                    type="text"
+                    placeholder="Search furniture"
+                    class="w-[80%] border-0 text-white outline-0 placeholder:text-white"
+                />
                 <svg
                     width="40"
                     height="40"
@@ -42,30 +48,33 @@
                 </svg>
             </div>
             <!-- Floating thing -->
-             <div class="absolute left-1/4 top-[120%] h-auto w-auto">
-                <Float/>
-             </div>
-            <!-- Floating thing -->
-             <div class="absolute left-32 top-[120%] h-auto w-auto">
-                <LilFloat/>
-             </div>
-            <!-- Floating thing -->
-             <div class="absolute right-32 top-[120%] h-auto w-auto">
-                <LilFloat/>
-             </div>
-            <!-- Floating thing -->
-             <div class="absolute right-[40%] top-[120%] h-auto w-auto">
-                <LilFloat/>
-             </div>
+            <div>
+                <div class="absolute top-[120%] left-1/4 h-auto w-auto">
+                    <Float />
+                </div>
+                <!-- Floating thing -->
+                <div class="absolute top-[120%] left-32 h-auto w-auto">
+                    <LilFloat />
+                </div>
+                <!-- Floating thing -->
+                <div class="absolute top-[120%] right-32 h-auto w-auto">
+                    <LilFloat />
+                </div>
+                <!-- Floating thing -->
+                <div class="absolute top-[120%] right-[40%] h-auto w-auto">
+                    <LilFloat />
+                </div>
+            </div>
+          
         </div>
     </div>
 </template>
 
 <script>
-import Float from './Float.vue'; 
-import LilFloat from './LilFloat.vue'; 
+import Float from './Float.vue';
+import LilFloat from './LilFloat.vue';
 export default {
-    components:{Float,LilFloat}
+    components: { Float, LilFloat },
 };
 </script>
 
