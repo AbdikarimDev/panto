@@ -27,7 +27,7 @@
                     <h1 class="text-[24px] font-semibold text-[#1E1E1E]">
                         Luxury facilities
                     </h1>
-                    <p class="text-[16px] font-normal text-[#1e1e1eda]">
+                    <p class="text-[16px] font-normal text-[#1E1E1E] leading-[28px]">
                         The advantage of hiring a workspace <br />
                         with us is that givees you comfortable <br />
                         service and all-around facilities.
@@ -64,7 +64,7 @@
                     <h1 class="text-[24px] font-semibold text-[#1E1E1E]">
                         Affordable Price
                     </h1>
-                    <p class="text-[16px] font-normal text-[#1e1e1eda]">
+                    <p class="text-[16px] font-normal text-[#1E1E1E] leading-[28px]">
                         You can get a workspace of the highst <br />
                         quality at an affordable price and still <br />
                         enjoy the facilities that are oly here.
@@ -101,7 +101,7 @@
                     <h1 class="text-[24px] font-semibold text-[#1E1E1E]">
                         Many Choices
                     </h1>
-                    <p class="text-[16px] font-normal text-[#1e1e1eda]">
+                    <p class="text-[16px] font-normal text-[#1E1E1E] leading-[28px]">
                         We provide many unique work space <br> choices so that you
                         can choose the <br> workspace to your liking.
                     </p>
@@ -138,6 +138,10 @@
              <div>
                 <Products/>
              </div>
+            <!-- Experience -->
+             <div>
+                <Experience/>
+             </div>
         </div>
     </div>
 </template>
@@ -146,9 +150,10 @@
 import Topbar from '@/components/Topbar.vue';
 import Hero from '@/components/Hero.vue';
 import Products from "@/components/Products.vue"
+import Experience from "@/components/Experience.vue"
 import bg from '../assets/bg.png';
 export default {
-    components: { Topbar, Hero ,Products},
+    components: { Topbar, Hero ,Products,Experience},
     data() {
         return {
             bg,
