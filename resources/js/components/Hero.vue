@@ -9,7 +9,7 @@
             </h1>
             <p class="text-center text-[24px] font-normal text-white">
                 Turn your room with panto into a lot more minimalist <br />
-                and modern with ease and speed
+                and modern with ease and speed 
             </p>
             <!-- SEARCH INPUT -->
             <div class="w-full max-w-90  bg-white/30 backdrop-blur-xs border-[#FFFFFF99] border rounded-full flex justify-between items-center py-1.5 px-4">
