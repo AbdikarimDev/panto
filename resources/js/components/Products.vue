@@ -1,6 +1,6 @@
 <template>
     <div
-        class="flex flex-col items-center justify-center gap-10 bg-[#F7F7F7] py-7"
+        class="font-gilroy flex flex-col items-center justify-center gap-10 bg-[#F7F7F7] py-7"
     >
         <h1 class="text-[42px] font-semibold text-[#1E1E1E]">
             Best Selling Product

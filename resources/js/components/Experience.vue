@@ -1,5 +1,5 @@
 <template>
-    <div class="flex w-full flex-col items-center gap-32">
+    <div class="font-gilroy flex w-full flex-col items-center gap-32 font-gilroy">
         <!-- EXPREIENCE -->
         <div class="flex w-full items-center justify-between">
             <div class="w-full">
@@ -54,20 +54,24 @@
         </div>
 
         <!-- Materials -->
-        <div class="flex w-full items-center justify-center   ">
+        <div class="flex w-full items-center justify-center">
             <div
-                class="flex w-full max-w-[556px]   mx-auto  flex-col items-center justify-center gap-6  "
+                class="mx-auto flex w-full max-w-[556px] flex-col items-center justify-center gap-6"
             >
-                <p class="text-[18px] font-normal   w-full text-[#E58411] uppercase">
+                <p
+                    class="w-full text-[18px] font-normal text-[#E58411] uppercase"
+                >
                     Materials
                 </p>
-                <h1 class="text-[42px] w-full font-semibold text-[#1E1E1E] capitalize">
+                <h1
+                    class="w-full text-[42px] font-semibold text-[#1E1E1E] capitalize"
+                >
                     Very serious <br />
                     materials for making <br />
                     furniture
                 </h1>
                 <p
-                    class="text-[18px] w-full leading-[39px] font-normal text-[#1e1e1eb7] capitalize"
+                    class="w-full text-[18px] leading-[39px] font-normal text-[#1e1e1eb7] capitalize"
                 >
                     Because panto was very serious about designing furniture for
                     our <br />
@@ -75,7 +79,7 @@
                     at a <br />
                     relatively low price
                 </p>
-                <button class="flex items-start bo w-full justify-start gap-4">
+                <button class="bo flex w-full items-start justify-start gap-4">
                     <p class="text-[14px] font-normal text-[#E58411]">
                         More Info
                     </p>
@@ -101,7 +105,7 @@
                 </button>
             </div>
             <!-- images -->
-            <div class="w-[50%] flex justify-end items-center">
+            <div class="flex w-[50%] items-center justify-end">
                 <div class="flex flex-col">
                     <img src="@/assets/singleChair.png" width="223" alt="" />
                     <img src="@/assets/couch.png" width="223" alt="" />
