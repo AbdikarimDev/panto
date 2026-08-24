@@ -13,14 +13,14 @@
             <div
                 v-for="item in items"
                 :key="item.title"
-                class="flex h-[406px] w-full max-w-[340px] items-end justify-center rounded-2xl bg-cover bg-center py-4"
+                class="flex h-101.5 w-full max-w-85 items-end justify-center rounded-2xl bg-cover bg-center py-4"
                 :style="{ backgroundImage: `url(${item.img})` }"
             >
                 <div
-                    class="flex w-full max-w-[300px] flex-col items-center justify-center rounded-[12px] bg-white py-6 shadow-sm"
+                    class="flex w-full max-w-75 flex-col items-center justify-center rounded-xl bg-white py-6 shadow-sm"
                 >
                     <div
-                        class="mt-[-40px] flex h-[60px] w-[60px] items-center justify-center rounded-full bg-white"
+                        class="-mt-10 flex h-15 w-15 items-center justify-center rounded-full bg-white"
                     >
                         <img :src="item.profile" width="50" alt="" />
                     </div>
@@ -37,7 +37,7 @@
                         </p>
                     </div>
                     <p
-                        class="text-center text-[15px] mb-4 w-[252px] font-normal text-[#1e1e1e96] capitalize"
+                        class="text-center text-[15px] mb-4 w-63 font-normal text-[#1e1e1e96] capitalize"
                     >
                         {{ item.desc }}
                     </p>
