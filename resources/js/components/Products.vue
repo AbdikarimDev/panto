@@ -1,11 +1,11 @@
 <template>
     <div
-        class="font-gilroy flex flex-col items-center justify-center gap-10 bg-[#F7F7F7] py-7"
+        class="font-gilroy flex flex-col items-center justify-center gap-10 bg-[#F7F7F7] py-7 lg:px-0 md:px-0 px-10"
     >
-        <h1 class="text-[42px] font-semibold text-[#1E1E1E]">
+        <h1 class="text-[42px] text-center md:text-start font-semibold text-[#1E1E1E]">
             Best Selling Product
         </h1>
-        <div class="flex flex-col items-center justify-center gap-6">
+        <div class="flex flex-col items-center justify-center gap-6 ">
             <!-- tabs buttons -->
             <div class="flex gap-3 rounded-full bg-[#EEEEEE] px-1.5 py-1.5">
                 <button
@@ -23,7 +23,7 @@
                 </button>
             </div>
             <!-- Proucts -->
-            <div class="mt-10 flex w-full justify-center gap-22">
+            <div class="mt-10 w-full grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 px-10  gap-22">
                 <div
                     v-for="item in items"
                     :key="item.title"

@@ -4,12 +4,12 @@
             <h1 class="text-[18px] font-semibold text-[#E58411] uppercase">
                 Testimonials
             </h1>
-            <p class="text-[42px] font-semibold text-[#1E1E1E] capitalize">
+            <p class="text-[42px] md:text-start text-center font-semibold text-[#1E1E1E] capitalize">
                 Our Client Reviews
             </p>
         </div>
         <!-- First testimonial -->
-        <div class="flex items-center justify-center gap-12 w-full">
+        <div class="flex flex-col justify-center items-center lg:flex-row md:flex-row gap-12 w-full">
             <div
                 v-for="item in items"
                 :key="item.title"

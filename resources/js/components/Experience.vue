@@ -1,17 +1,17 @@
 <template>
     <div class="font-gilroy flex w-full flex-col items-center gap-32 font-gilroy">
         <!-- EXPREIENCE -->
-        <div class="flex w-full items-center justify-between">
+        <div class="flex lg:flex-row md:flex-row flex-col gap-10 px- w-full items-center justify-between">
             <div class="w-full">
                 <img src="@/assets/exp.png" width="629" alt="" />
             </div>
 
-            <div class="flex w-full flex-col items-start justify-start gap-6">
+            <div class="flex w-full flex-col items-start justify-start gap-6 px-4">
                 <p class="text-[18px] font-normal text-[#E58411] uppercase">
                     experiences
                 </p>
                 <h1 class="text-[42px] font-semibold text-[#1E1E1E] capitalize">
-                    we provide you the <br />
+                    we provide you the <br class="lg:flex md:flex hidden" />
                     best experience
                 </h1>
                 <p
@@ -54,9 +54,9 @@
         </div>
 
         <!-- Materials -->
-        <div class="flex w-full items-center justify-center">
+        <div class="flex lg:flex-row md:flex-row flex-col w-full items-center justify-center">
             <div
-                class="mx-auto flex w-full max-w-[556px] flex-col items-center justify-center gap-6"
+                class="mx-auto flex w-full max-w-[556px] flex-col items-center justify-center gap-6  px-4"
             >
                 <p
                     class="w-full text-[18px] font-normal text-[#E58411] uppercase"
@@ -105,12 +105,12 @@
                 </button>
             </div>
             <!-- images -->
-            <div class="flex w-[50%] items-center justify-end">
-                <div class="flex flex-col">
-                    <img src="@/assets/singleChair.png" width="223" alt="" />
-                    <img src="@/assets/couch.png" width="223" alt="" />
+            <div class="flex w-full lg:flex-row md:flex-row  flex-col lg:w-[50%] md:w-[70%] items-center justify-end">
+                <div class="flex md:flex-col lg:flex-col flex-row justify-center items-center">
+                    <img src="@/assets/singleChair.png" class="lg:w-[233px] md:w-[233px] w-[200px]" alt="" />
+                    <img src="@/assets/couch.png" class="lg:w-[253px] md:w-[233px] w-[200px]" alt="" />
                 </div>
-                <img src="@/assets/chairs.png" width="629" alt="" />
+                <img src="@/assets/chairs.png"  class="w-full max-w-[560px] " alt="" />
             </div>
         </div>
     </div>
