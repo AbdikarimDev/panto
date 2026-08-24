@@ -1,5 +1,5 @@
 <template>
-    <div class="font-gilroy">
+    <div class="overflow-hidden font-gilroy ">
         <!-- tobar and hero section -->
         <div
             class="relative bg-cover bg-fixed bg-center"
@@ -14,20 +14,28 @@
                 <Hero />
             </div>
         </div>
-        <div class="relative z-10 mb-32 flex flex-col justify-center gap-24">
+        <div class="relative z-10 mb-32 flex flex-col justify-center gap-24 ">
             <!-- Why Choosing Us -->
 
-            <div class=" flex items-center justify-around mt-20">
-                <h1 class="text-[42px] font-semibold text-[#1E1E1E]">
+            <div
+                class="mt-20 flex flex-col items-center justify-around gap-7 md:flex-row"
+            >
+                <h1
+                    class="text-center text-[42px] font-semibold text-[#1E1E1E] md:text-start"
+                >
                     Why <br />
                     Choosing Us
                 </h1>
                 <!-- firsts one  -->
-                <div>
+                <div
+                    class="flex flex-col items-center justify-center md:items-start md:justify-start lg:items-start lg:justify-start"
+                >
                     <h1 class="text-[24px] font-semibold text-[#1E1E1E]">
                         Luxury facilities
                     </h1>
-                    <p class="text-[16px] font-normal text-[#1E1E1E] leading-[28px]">
+                    <p
+                        class="text-[16px] leading-[28px] font-normal text-[#1E1E1E]"
+                    >
                         The advantage of hiring a workspace <br />
                         with us is that givees you comfortable <br />
                         service and all-around facilities.
@@ -60,11 +68,16 @@
                     </button>
                 </div>
                 <!-- second  one  -->
-                <div>
+
+                <div
+                    class="flex flex-col items-center justify-center md:items-start md:justify-start lg:items-start lg:justify-start"
+                >
                     <h1 class="text-[24px] font-semibold text-[#1E1E1E]">
                         Affordable Price
                     </h1>
-                    <p class="text-[16px] font-normal text-[#1E1E1E] leading-[28px]">
+                    <p
+                        class="text-[16px] leading-[28px] font-normal text-[#1E1E1E]"
+                    >
                         You can get a workspace of the highst <br />
                         quality at an affordable price and still <br />
                         enjoy the facilities that are oly here.
@@ -97,13 +110,19 @@
                     </button>
                 </div>
                 <!-- third one  -->
-                <div>
+
+                <div
+                    class="flex flex-col items-center justify-center md:items-start md:justify-start lg:items-start lg:justify-start"
+                >
                     <h1 class="text-[24px] font-semibold text-[#1E1E1E]">
                         Many Choices
                     </h1>
-                    <p class="text-[16px] font-normal text-[#1E1E1E] leading-[28px]">
-                        We provide many unique work space <br> choices so that you
-                        can choose the <br> workspace to your liking.
+                    <p
+                        class="text-[16px] leading-[28px] font-normal text-[#1E1E1E]"
+                    >
+                        We provide many unique work space <br />
+                        choices so that you can choose the <br />
+                        workspace to your liking.
                     </p>
                     <button class="flex items-center justify-center gap-4">
                         <p class="text-[14px] font-normal text-[#E58411]">
@@ -135,13 +154,21 @@
             </div>
 
             <!-- Products -->
-             <div>
-                <Products/>
-             </div>
+            <div>
+                <Products />
+            </div>
             <!-- Experience -->
-             <div>
-                <Experience/>
-             </div>
+            <div>
+                <Experience />
+            </div>
+            <!-- Testimonial -->
+            <div>
+                <Testimonial />
+            </div>
+            <!-- Footer -->
+            <div>
+                <Footer />
+            </div>
         </div>
     </div>
 </template>
@@ -149,11 +176,13 @@
 <script>
 import Topbar from '@/components/Topbar.vue';
 import Hero from '@/components/Hero.vue';
-import Products from "@/components/Products.vue"
-import Experience from "@/components/Experience.vue"
+import Products from '@/components/Products.vue';
+import Experience from '@/components/Experience.vue';
+import Testimonial from '@/components/Testimonial.vue';
+import Footer from '@/components/Footer.vue';
 import bg from '../assets/bg.png';
 export default {
-    components: { Topbar, Hero ,Products,Experience},
+    components: { Topbar, Hero, Products, Experience, Testimonial, Footer },
     data() {
         return {
             bg,

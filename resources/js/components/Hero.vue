@@ -1,14 +1,14 @@
 <template>
     <div
-        class="relative z-0 flex w-full items-center justify-center font-gilroy md:mt-48"
+        class="relative z-0 flex w-full items-center justify-center font-gilroy md:mt-48 mt-16 lg:px-0 md:px-0 px-10"
     >
         <div class="flex flex-col items-center justify-center gap-10">
-            <h1 class="text-[84px] font-semibold text-white">
+            <h1 class="lg:text-[84px] md:text-[64px] text-[24px]  font-semibold text-white">
                 Make your interior more <br />
                 minimalistic & modern
             </h1>
-            <p class="text-center text-[24px] font-normal text-white">
-                Turn your room with panto into a lot more minimalist <br />
+            <p class="text-center lg:text-[24px] md:text-[18px] text-[16px] font-normal text-white">
+                Turn your room with panto into a lot more minimalist <br class="md:flex hidden" />
                 and modern with ease and speed
             </p>
             <!-- SEARCH INPUT -->
@@ -53,15 +53,15 @@
                     <Float />
                 </div>
                 <!-- Floating thing -->
-                <div class="absolute top-[120%] left-32 h-auto w-auto">
+                <div class="absolute top-[120%] lg:left-32 md:22 left-4 h-auto w-auto">
                     <LilFloat />
                 </div>
                 <!-- Floating thing -->
-                <div class="absolute top-[120%] right-32 h-auto w-auto">
+                <div class="absolute top-[120%] lg:right-32 md:right-22 right-4 h-auto w-auto">
                     <LilFloat />
                 </div>
                 <!-- Floating thing -->
-                <div class="absolute top-[120%] right-[40%] h-auto w-auto">
+                <div class="absolute lg:top-[120%] md:top-[120%] top-[150%] lg:right-[40%] md:right-[20%] right-[30%] h-auto w-auto">
                     <LilFloat />
                 </div>
             </div>
