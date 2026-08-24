@@ -1,5 +1,5 @@
 <template>
-    <div class="font-gilroy flex w-full flex-col items-center gap-32 font-gilroy">
+    <div class="font-gilroy flex w-full flex-col items-center gap-32 ">
         <!-- EXPREIENCE -->
         <div class="flex lg:flex-row md:flex-row flex-col gap-10 px- w-full items-center justify-between">
             <div class="w-full">
@@ -56,7 +56,7 @@
         <!-- Materials -->
         <div class="flex lg:flex-row md:flex-row flex-col w-full items-center justify-center">
             <div
-                class="mx-auto flex w-full max-w-[556px] flex-col items-center justify-center gap-6  px-4"
+                class="mx-auto flex w-full max-w-139 flex-col items-center justify-center gap-6  px-4"
             >
                 <p
                     class="w-full text-[18px] font-normal text-[#E58411] uppercase"
@@ -71,7 +71,7 @@
                     furniture
                 </h1>
                 <p
-                    class="w-full text-[18px] leading-[39px] font-normal text-[#1e1e1eb7] capitalize"
+                    class="w-full text-[18px] leading-9.75 font-normal text-[#1e1e1eb7] capitalize"
                 >
                     Because panto was very serious about designing furniture for
                     our <br />
@@ -107,10 +107,10 @@
             <!-- images -->
             <div class="flex w-full lg:flex-row md:flex-row  flex-col lg:w-[50%] md:w-[70%] items-center justify-end">
                 <div class="flex md:flex-col lg:flex-col flex-row justify-center items-center">
-                    <img src="@/assets/singleChair.png" class="lg:w-[233px] md:w-[233px] w-[200px]" alt="" />
-                    <img src="@/assets/couch.png" class="lg:w-[253px] md:w-[233px] w-[200px]" alt="" />
+                    <img src="@/assets/singleChair.png" class="lg:w-58.25 md:w-58.25] w-50" alt="" />
+                    <img src="@/assets/couch.png" class="lg:w-63.25 md:w-58.25 w-50" alt="" />
                 </div>
-                <img src="@/assets/chairs.png"  class="w-full max-w-[560px] " alt="" />
+                <img src="@/assets/chairs.png"  class="w-full max-w-140 " alt="" />
             </div>
         </div>
     </div>

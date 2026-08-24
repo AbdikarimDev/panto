@@ -6,7 +6,7 @@
             :style="{ backgroundImage: `url(${bg})`, height: '1084px' }"
         >
             <div
-                class="pointer-events-none absolute inset-0 top-[96%] h-[4rem] bg-gradient-to-b from-transparent via-white/100 to-white"
+                class="pointer-events-none absolute inset-0 top-[96%] h-16 bg-gradient-to-b from-transparent via-white to-white"
             ></div>
 
             <div class="absolute top-7 right-0 left-0">
@@ -34,7 +34,7 @@
                         Luxury facilities
                     </h1>
                     <p
-                        class="text-[16px] leading-[28px] font-normal text-[#1E1E1E]"
+                        class="text-[16px] leading-7 font-normal text-[#1E1E1E]"
                     >
                         The advantage of hiring a workspace <br />
                         with us is that givees you comfortable <br />
@@ -76,7 +76,7 @@
                         Affordable Price
                     </h1>
                     <p
-                        class="text-[16px] leading-[28px] font-normal text-[#1E1E1E]"
+                        class="text-[16px] leading-7 font-normal text-[#1E1E1E]"
                     >
                         You can get a workspace of the highst <br />
                         quality at an affordable price and still <br />
@@ -118,7 +118,7 @@
                         Many Choices
                     </h1>
                     <p
-                        class="text-[16px] leading-[28px] font-normal text-[#1E1E1E]"
+                        class="text-[16px] leading-7 font-normal text-[#1E1E1E]"
                     >
                         We provide many unique work space <br />
                         choices so that you can choose the <br />

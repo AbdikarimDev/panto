@@ -4,7 +4,7 @@
             class="flex flex-col items-center justify-center font-gilroy lg:flex-row"
         >
             <!-- panto and desc -->
-            <div class=" md:mx-[6rem] lg:mx-[10rem] mx-[1rem] w-full">
+            <div class=" md:mx-24 lg:mx-40 mx-4 w-full">
                 <h1 class="text-[28px] font-semibold">Panto</h1>
                 <p class="mt-3 text-[15px] font-normal text-[#1e1e1eaf]">
                     The advantage of hiring a workspace with <br />
@@ -146,7 +146,7 @@
             </div>
         </div>
         <div
-            class=" flex items-center justify-between  md:mx-[6rem] lg:mx-[10rem] mx-[1rem]"
+            class=" flex items-center justify-between  md:mx-24 lg:mx-40 mx-4"
         >
             <h1 class="mt-3 text-[15px] font-normal text-[#1e1e1eaf]">
                 Copyright © {{ new Date().getFullYear() }}
