@@ -2,6 +2,7 @@
 
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\Api\MockEvcController;
 
 Route::get('/user', function (Request $request) {
     return $request->user();
@@ -10,3 +11,7 @@ use App\Http\Controllers\Api\TransactionController;
 
 Route::post('/transactions', [TransactionController::class, 'store']);
 Route::get('/transactions', [TransactionController::class, 'index']);
+
+
+Route::post('/mock-evc/balance', [MockEvcController::class, 'balance']);
+Route::post('/mock-evc/send', [MockEvcController::class, 'send']);
